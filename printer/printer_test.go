@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/amenzhinsky/dbus-codegen-go/token"
+	"vgitlab01.tq-net.de/tq-em/tools/dbus-codegen-go.git/token"
 )
 
 func TestPrint(t *testing.T) {
