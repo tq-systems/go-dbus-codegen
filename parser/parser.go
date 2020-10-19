@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/godbus/dbus/introspect"
+	"github.com/godbus/dbus/v5/introspect"
 	"github.com/tq-systems/go-dbus-codegen/token"
 )
 
