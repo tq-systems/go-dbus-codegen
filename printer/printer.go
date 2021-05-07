@@ -13,7 +13,7 @@ import (
 	"strings"
 	"text/template"
 
-	"vgitlab01.tq-net.de/tq-em/tools/dbus-codegen-go.git/token"
+	"github.com/tq-systems/go-dbus-codegen/token"
 )
 
 // PrintOption is a Print configuration option.

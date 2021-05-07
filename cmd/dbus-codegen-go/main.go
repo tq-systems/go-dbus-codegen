@@ -9,11 +9,11 @@ import (
 	"os"
 	"strings"
 
-	"vgitlab01.tq-net.de/tq-em/tools/dbus-codegen-go.git/parser"
-	"vgitlab01.tq-net.de/tq-em/tools/dbus-codegen-go.git/printer"
-	"vgitlab01.tq-net.de/tq-em/tools/dbus-codegen-go.git/token"
 	"github.com/godbus/dbus"
 	"github.com/godbus/dbus/introspect"
+	"github.com/tq-systems/go-dbus-codegen/parser"
+	"github.com/tq-systems/go-dbus-codegen/printer"
+	"github.com/tq-systems/go-dbus-codegen/token"
 )
 
 var (
