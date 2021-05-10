@@ -40,13 +40,13 @@ The tool will generate the following data structures:
 You can install it with `go get` withing `$GOPATH` or a module (**go1.11** has issues with binaries installation outside of a module):
 
 ```bash
-go get -u vgitlab01.tq-net.de/tq-em/tools/dbus-codegen-go.git/cmd/dbus-codegen-go
+go get -u github.com/tq-systems/go-dbus-codegen/cmd/dbus-codegen-go
 ```
 
 Or clone the repo and build it manually:
 
 ```bash
-git clone git@vgitlab01.tq-net.de:tq-em/tools/dbus-codegen-go.git
+git clone git@github.com:tq-systems/go-dbus-codegen.git
 cd dbus-codegen-go
 go build ./cmd/dbus-codegen-go
 ```

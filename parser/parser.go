@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"vgitlab01.tq-net.de/tq-em/tools/dbus-codegen-go.git/token"
 	"github.com/godbus/dbus/introspect"
+	"github.com/tq-systems/go-dbus-codegen/token"
 )
 
 // Parse parses the given introspection XML into a list of interfaces.
