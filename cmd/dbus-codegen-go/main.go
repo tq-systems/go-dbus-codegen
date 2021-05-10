@@ -9,8 +9,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/godbus/dbus"
-	"github.com/godbus/dbus/introspect"
+	"github.com/godbus/dbus/v5"
+	"github.com/godbus/dbus/v5/introspect"
 	"github.com/tq-systems/go-dbus-codegen/parser"
 	"github.com/tq-systems/go-dbus-codegen/printer"
 	"github.com/tq-systems/go-dbus-codegen/token"
