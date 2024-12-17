@@ -1,4 +1,4 @@
-image: vgitlab01.tq-net.de:5005/tq-em/build/toolchain/amd64:latest
+image: $TOOLCHAIN_REGISTRY_IMAGE/amd64:latest
 
 Lint:
   script:
