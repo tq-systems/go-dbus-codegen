@@ -1,11 +1,10 @@
-image: vgitlab01.tq-net.de:5005/tq-em/build/toolchain/amd64:latest
+include:
+- project: tq-em/build/docker/toolchain-ci
+  file: template-ci.yml
+  ref: v5.2.0_tc6.0.0
 
 Lint:
-  script:
-    - golint -set_exit_status $(go list ./...)
+  extends: .go-lint
 
 Code Generation:
-  script:
-    - go generate -v ./...
-    - git add :/
-    - git diff --exit-code HEAD
+  extends: .go-generate-code
